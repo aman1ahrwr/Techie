@@ -47,6 +47,7 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
+  border: 1px solid #fff; 
   transition: all 0.4s;
 }
 
@@ -57,8 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7b27d8;
-  color: #fff;
+  border: 1px solid #5846f9; 
 }
 
 .back-to-top.active {
@@ -123,7 +123,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(42deg,  #5846f9 0%, #7b27d8 100%);
   padding: 12px 0;
 }
 
@@ -1550,6 +1550,7 @@ section {
   margin-bottom: 2rem;
 }
 
+
 #header .logo{
   height: 3rem;
 }
@@ -1571,8 +1572,19 @@ section {
   line-height: 1;
 }
 
+#about .container .row ul li{
+  margin: 1rem auto;
+}
+
+#about .container .row ul {
+  margin: 2rem auto;
+}
+
+#about .container .row h3 {
+  margin: 2rem auto;
+}
+
 #footer .footer-top .footer-links ul a:hover {
-  text-decoration: underline;
   color: #fff;
 }
 
