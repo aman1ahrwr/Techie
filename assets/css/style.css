@@ -123,7 +123,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
   padding: 12px 0;
 }
 
@@ -499,7 +499,7 @@ h6 {
   }
 
   #hero .hero-img img {
-    width: 50%;
+    width: 60%;
   }
 }
 
