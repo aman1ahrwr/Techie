@@ -708,6 +708,20 @@ section {
   fill: #f5f5f5;
 }
 
+.mann{
+  font-size: smaller;
+}
+
+.mann a{
+    color: white;
+    text-decoration: underline;
+}
+
+.mann a:hover {
+  color: #8577fb;
+  text-decoration: none;
+}
+
 .services .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
